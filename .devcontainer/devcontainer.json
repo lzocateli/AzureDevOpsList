@@ -27,7 +27,7 @@
 	"mounts": [
 		// Se estiver utilizando Linux ou WSL2 desmarque essas linhas
 		// "source=/${localEnv:HOME}/.nuget/NuGet/NuGet.Config,target=/root/.nuget/NuGet/NuGet.Config,type=bind,consistency=cached",
-		"source=/${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
+		//"source=/${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached"
 		// "source=/${localEnv:HOME}/.microsoft/usersecrets,target=/root/.microsoft/usersecrets,type=bind,consistency=cached"
 		
 		// Se estiver usando Windows ou Docker Desktop, desmarque essas linhas
@@ -60,6 +60,7 @@
 				"tamasfe.even-better-toml",
 				"mechatroner.rainbow-csv",
 				"ms-azuretools.vscode-docker",
+				"ms-vscode.azurecli",
 				"ms-vscode.powershell",
 				"ms-vsliveshare.vsliveshare",
 				"ecmel.vscode-html-css",
